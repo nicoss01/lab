@@ -1,3 +1,10 @@
+html,body{
+    margin: 0;
+    padding: 0;    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;    
+}
 main{
     width: 800px;
     height: 800px;
@@ -15,4 +22,7 @@ main div{
 }
 main div.active{
     background:#bada55;
+}
+#status{
+    font-style: italic;
 }
