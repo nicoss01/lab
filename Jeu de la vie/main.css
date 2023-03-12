@@ -1,0 +1,18 @@
+main{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    border:2px solid #bada55;
+    display: flex;
+    flex-wrap: wrap;
+}
+main div{
+    width: 8px;
+    height:8px;
+    border:1px solid #222;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+main div.active{
+    background:#bada55;
+}
